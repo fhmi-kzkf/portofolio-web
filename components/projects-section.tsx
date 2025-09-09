@@ -11,27 +11,63 @@ export function ProjectsSection() {
   const projects = [
   {
     id: 1,
-    title: 'Auto Data Mining Tools With Streamlit and Python',
-    description: 'Manual data mining can be tedious and time-consuming. To streamline this process, I built an interactive web application using Python and Streamlit that automates key data mining tasks—classification, clustering, regression, and association rule mining. Users can upload CSV or Excel files, or select built-in sample datasets, and instantly run multiple machine learning algorithms with comprehensive evaluation metrics and insightful visualizations.',
-    tags: ['Python', 'Data Mining'],
+    title: 'ChainSense – Supply Chain Risk Analyzer',
+    description: 'ChainSense is a comprehensive supply chain risk analysis platform',
+    tags: ['Python', 'Streamlit', 'Supply Chain'],
     gradient: 'from-blue-600/20 to-purple-600/20',
-    image: '/public/images/Auto Datamining.jpg' // pastikan gambar ada di folder public/images
+    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=300&fit=crop&auto=format',
+    githubUrl: 'https://github.com/fhmi-kzkf/ChainSense',
+    demoUrl: 'https://chainsense.streamlit.app/'
   },
   {
     id: 2,
-    title: 'Auto Data Analisis With Streamlit and Python',
-    description: 'Im excited to share a Data Analytics Tool I built using Streamlit that enables users to upload CSV datasets and perform comprehensive analytics - from data cleaning 🧹 and descriptive statistics 📈 to predictive modeling 🤖 and clustering 🔍.',
-    tags: ['Python', 'Data Analysis'],
+    title: 'FlowForge – An Interactive ETL Platform for Everyone!',
+    description: 'FlowForge is a "state-of-the-art interactive web-based ETL platform" built with Python and Streamlit.',
+    tags: ['Python', 'Data Engineering', 'ETL'],
     gradient: 'from-green-600/20 to-blue-600/20',
-    image: '/public/images/Data Analaitik Tools.jpg'
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&auto=format',
+    githubUrl: 'https://github.com/fhmi-kzkf/FlowForge',
+    demoUrl: 'https://flowforge.streamlit.app/'
   },
   {
     id: 3,
+    title: 'DataMind – A Comprehensive Data Analysis & Machine Learning Platform',
+    description: 'A comprehensive web-based data analysis & ML platform built with Streamlit. Upload CSV/Excel files, perform advanced EDA, clean data, create visualizations, train multiple ML models, and compare results.',
+    tags: ['Machine Learning', 'Data Analysis'],
+    gradient: 'from-purple-600/20 to-pink-600/20',
+    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=300&fit=crop&auto=format',
+    githubUrl: 'https://github.com/fhmi-kzkf/DataMind',
+    demoUrl: 'https://datamind-automl.streamlit.app/'
+  },
+  {
+    id: 4,
+    title: 'IntelliLearn AI',
+    description: 'IntelliLearn AI is a comprehensive AI learning platform designed for learners of all levels (Beginner, Intermediate, Advanced). The platform offers a micro-learning approach with interactive quizzes, gamification features, and AI tutor integration to make learning AI concepts engaging and effective.',
+    tags: ['Django', 'Learning Platform'],
+    gradient: 'from-green-600/20 to-blue-600/20',
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop&auto=format',
+    githubUrl: 'https://github.com/fhmi-kzkf/IntelliLearn-AI',
+    demoUrl: ''
+  },
+  {
+    id: 5,
+    title: 'LearnInSnap',
+    description: 'LearnInSnap is an interactive educational platform that offers bite-sized courses for college students to quickly acquire practical digital skills. Each course is designed to be completed in under 30 minutes, making it perfect for students with busy schedules.',
+    tags: ['Html', 'Typescript', 'React'],
+    gradient: 'from-purple-600/20 to-pink-600/20',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&h=300&fit=crop&auto=format',
+    githubUrl: 'https://github.com/fhmi-kzkf/learninsnap',
+    demoUrl: 'https://learninsnap.vercel.app/'
+  },
+  {
+    id: 6,
     title: 'Project Web For My Brand Astral Project',
     description: 'Website For Everyone Who Loves Anime And Manga Poster,Shirt and Hoodie',
     tags: ['Html', 'Bootstrap'],
-    gradient: 'from-purple-600/20 to-pink-600/20',
-    image: '/public/images/Astral Project Web.jpg'
+    gradient: 'from-green-600/20 to-blue-600/20',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=300&fit=crop&auto=format',
+    githubUrl: '',
+    demoUrl: ''
   }
 ];
 
@@ -87,14 +123,24 @@ export function ProjectsSection() {
                     </div>
                     
                     <div className="flex space-x-4">
-                      <button className="flex items-center text-gray-400 hover:text-white transition-colors">
+                      <a 
+                        href={project.githubUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center text-gray-400 hover:text-white transition-colors hover:scale-105 transform duration-200"
+                      >
                         <Github className="h-4 w-4 mr-1" />
                         <span className="text-sm">Code</span>
-                      </button>
-                      <button className="flex items-center text-gray-400 hover:text-white transition-colors">
+                      </a>
+                      <a 
+                        href={project.demoUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center text-gray-400 hover:text-white transition-colors hover:scale-105 transform duration-200"
+                      >
                         <ExternalLink className="h-4 w-4 mr-1" />
                         <span className="text-sm">Demo</span>
-                      </button>
+                      </a>
                     </div>
                   </CardContent>
                 </Card>
