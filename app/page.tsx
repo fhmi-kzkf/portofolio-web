@@ -30,7 +30,7 @@ export default function Home() {
       <footer className="relative z-10 py-8 border-t border-gray-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-400">
-            © 2025 Fahmi. Built with Next.js and Tailwind CSS.
+            © 2025 Fahmi-Kzkf. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>

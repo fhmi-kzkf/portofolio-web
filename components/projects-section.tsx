@@ -15,7 +15,7 @@ export function ProjectsSection() {
     description: 'ChainSense is a comprehensive supply chain risk analysis platform',
     tags: ['Python', 'Streamlit', 'Supply Chain'],
     gradient: 'from-blue-600/20 to-purple-600/20',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=300&fit=crop&auto=format',
+    image: '',
     githubUrl: 'https://github.com/fhmi-kzkf/ChainSense',
     demoUrl: 'https://chainsense.streamlit.app/'
   },
@@ -25,7 +25,7 @@ export function ProjectsSection() {
     description: 'FlowForge is a "state-of-the-art interactive web-based ETL platform" built with Python and Streamlit.',
     tags: ['Python', 'Data Engineering', 'ETL'],
     gradient: 'from-green-600/20 to-blue-600/20',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&auto=format',
+    image: '',
     githubUrl: 'https://github.com/fhmi-kzkf/FlowForge',
     demoUrl: 'https://flowforge.streamlit.app/'
   },
@@ -35,7 +35,7 @@ export function ProjectsSection() {
     description: 'A comprehensive web-based data analysis & ML platform built with Streamlit. Upload CSV/Excel files, perform advanced EDA, clean data, create visualizations, train multiple ML models, and compare results.',
     tags: ['Machine Learning', 'Data Analysis'],
     gradient: 'from-purple-600/20 to-pink-600/20',
-    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=300&fit=crop&auto=format',
+    image: '',
     githubUrl: 'https://github.com/fhmi-kzkf/DataMind',
     demoUrl: 'https://datamind-automl.streamlit.app/'
   },
@@ -45,7 +45,7 @@ export function ProjectsSection() {
     description: 'IntelliLearn AI is a comprehensive AI learning platform designed for learners of all levels (Beginner, Intermediate, Advanced). The platform offers a micro-learning approach with interactive quizzes, gamification features, and AI tutor integration to make learning AI concepts engaging and effective.',
     tags: ['Django', 'Learning Platform'],
     gradient: 'from-green-600/20 to-blue-600/20',
-    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop&auto=format',
+    image: '',
     githubUrl: 'https://github.com/fhmi-kzkf/IntelliLearn-AI',
     demoUrl: ''
   },
@@ -55,7 +55,7 @@ export function ProjectsSection() {
     description: 'LearnInSnap is an interactive educational platform that offers bite-sized courses for college students to quickly acquire practical digital skills. Each course is designed to be completed in under 30 minutes, making it perfect for students with busy schedules.',
     tags: ['Html', 'Typescript', 'React'],
     gradient: 'from-purple-600/20 to-pink-600/20',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&h=300&fit=crop&auto=format',
+    image: '',
     githubUrl: 'https://github.com/fhmi-kzkf/learninsnap',
     demoUrl: 'https://learninsnap.vercel.app/'
   },
@@ -65,7 +65,7 @@ export function ProjectsSection() {
     description: 'Website For Everyone Who Loves Anime And Manga Poster,Shirt and Hoodie',
     tags: ['Html', 'Bootstrap'],
     gradient: 'from-green-600/20 to-blue-600/20',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=300&fit=crop&auto=format',
+    image: '',
     githubUrl: '',
     demoUrl: ''
   }
