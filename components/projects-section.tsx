@@ -68,6 +68,36 @@ export function ProjectsSection() {
     image: '',
     githubUrl: '',
     demoUrl: ''
+  },
+  {
+    id: 7,
+    title: 'SkillGap',
+    description: 'A hybrid machine learning approach for dynamic skill gap analysis and personalized course recommendations to bridge career pathway gaps.',
+    tags: ['Machine Learning', 'Natural Language Processing'],
+    gradient: 'from-green-600/20 to-blue-600/20',
+    image: '',
+    githubUrl: 'https://github.com/fhmi-kzkf/SkillGap',
+    demoUrl: 'https://skillgap-course.streamlit.app/'
+  },
+  {
+    id: 8,
+    title: 'DataDeck',
+    description: 'An interactive dashboard built with Streamlit to analyze NFT collections using the OpenSea API v2. View key statistics, recent sales activity, and browse NFT assets with their traits.',
+    tags: ['Streamlit', 'NFT Dashboard'],
+    gradient: 'from-purple-600/20 to-pink-600/20',
+    image: '',
+    githubUrl: 'https://github.com/fhmi-kzkf/DataDeck',
+    demoUrl: 'https://datadeck-nft.streamlit.app/'
+  },
+  {
+    id: 9,
+    title: 'Prediksi Diabetes',
+    description: 'This project predicts whether a patient has diabetes based on medical data using machine learning algorithms.',
+    tags: ['Machine Learning', 'Diabetes Prediction','Medical Data Analysis'],
+    gradient: 'from-green-600/20 to-blue-600/20',
+    image: '',
+    githubUrl: 'https://github.com/fhmi-kzkf/prediksi-diabetes',
+    demoUrl: 'https://prediksi-diabetes-ml.streamlit.app/'
   }
 ];
 

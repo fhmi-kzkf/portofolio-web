@@ -12,6 +12,11 @@ const skills = [
   { name: 'JavaScript', icon: '⚡', color: 'from-yellow-400/20 to-orange-500/20' },
   { name: 'MongoDB', icon: '🍃', color: 'from-green-500/20 to-emerald-600/20' },
   { name: 'PHP', icon: '🔧', color: 'from-purple-500/20 to-indigo-600/20' },
+  { name: 'Machine Learning', icon: '🤖', color: 'from-blue-500/20 to-purple-500/20' },
+  { name: 'Data Analyst', icon: '📈', color: 'from-green-500/20 to-teal-500/20' },
+  { name: 'Data Science', icon: '🔬', color: 'from-purple-500/20 to-pink-500/20' },
+  { name: 'Data Engineering', icon: '⚙️', color: 'from-gray-500/20 to-blue-500/20' },
+  { name: 'AI', icon: '🧠', color: 'from-indigo-500/20 to-purple-500/20' },
 ];
 
 export function SkillsSection() {
