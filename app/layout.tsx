@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { LanguageProvider } from '@/components/language-provider';
+import { SmoothScroll } from '@/components/smooth-scroll';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <SmoothScroll>
+          <LanguageProvider>
+            {children}
+          </LanguageProvider>
+        </SmoothScroll>
       </body>
     </html>
   );

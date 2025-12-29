@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/hooks/use-language';
-import { Card, CardContent } from '@/components/ui/card';
+import { GlassCard } from '@/components/ui/glass-card';
 
 const skills = [
   { name: 'Python', icon: '🐍', color: 'from-yellow-500/20 to-blue-500/20' },
@@ -47,16 +47,14 @@ export function SkillsSection() {
                 whileHover={{ scale: 1.05 }}
                 className="group"
               >
-                <Card className="bg-gray-900/80 border-gray-700 backdrop-blur-sm hover:bg-gray-900/90 transition-all duration-300 group-hover:border-gray-600">
-                  <CardContent className="p-6 text-center">
-                    <div className={`w-16 h-16 bg-gradient-to-br ${skill.color} border border-white/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:shadow-lg transition-shadow`}>
-                      <span className="text-2xl">{skill.icon}</span>
-                    </div>
-                    <h3 className="text-white font-semibold text-lg">
-                      {skill.name}
-                    </h3>
-                  </CardContent>
-                </Card>
+                <GlassCard intensity="high" className="p-6 text-center hover:bg-white/10 transition-colors h-full">
+                  <div className={`w-16 h-16 bg-gradient-to-br ${skill.color} border border-white/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:shadow-lg transition-shadow`}>
+                    <span className="text-2xl">{skill.icon}</span>
+                  </div>
+                  <h3 className="text-white font-semibold text-lg">
+                    {skill.name}
+                  </h3>
+                </GlassCard>
               </motion.div>
             ))}
           </div>
