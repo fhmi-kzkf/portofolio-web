@@ -2,7 +2,7 @@
 
 import { useLanguage } from '@/hooks/use-language';
 import Link from 'next/link';
-import { ReactLenis } from '@studio-freight/react-lenis';
+import { useLenis } from '@studio-freight/react-lenis';
 import { motion } from 'framer-motion';
 
 const ScrollReveal = ({ children }: { children: React.ReactNode }) => {
@@ -40,17 +40,19 @@ const AnimatedBarcode = () => {
 
 export default function Home() {
   const { t } = useLanguage();
+  const lenis = useLenis();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    if (element) {
+    if (element && lenis) {
+      lenis.scrollTo(element, { offset: -80, duration: 1.2 });
+    } else if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
-    <ReactLenis root>
-      <div className="min-h-screen bg-dark-01 relative overflow-x-hidden text-white-01 font-neue-montreal selection:bg-green-01 selection:text-dark-01">
+    <div className="min-h-screen bg-dark-01 relative overflow-x-hidden text-white-01 font-neue-montreal selection:bg-green-01 selection:text-dark-01">
       {/* Navigation */}
       <div className="sticky top-0 left-0 right-0 z-50 p-[1.11vw] md:px-[2.22vw] md:py-[1.6vw] lg:px-[2.7vw] bg-dark-01/90 backdrop-blur-sm border-b border-white-01/10">
         <div className="m-auto w-full grid grid-cols-4 md:grid-cols-12 gap-2 xl:gap-[1.38vw] items-center">
@@ -558,7 +560,6 @@ export default function Home() {
         </footer>
 
       </main>
-      </div>
-    </ReactLenis>
+    </div>
   );
 }
