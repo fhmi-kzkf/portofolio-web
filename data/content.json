@@ -6,7 +6,7 @@
       "AI Engineer",
       "Fullstack Developer",
       "Machine Learning",
-      "Data Analyst"
+      "Fullstack Data"
     ],
     "photoUrl": "/images/foto%20diri%20gsa.jpeg",
     "heroDescription": {
@@ -159,7 +159,7 @@
     },
     {
       "id": "skill-data-analyst",
-      "name": "Data Analyst",
+      "name": "Fullstack Data",
       "tag1": "ANALYTICS",
       "tag2": "DATA",
       "icon": "/skills/data-analyst.svg",
