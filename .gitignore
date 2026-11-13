@@ -37,3 +37,6 @@ next-env.d.ts
 
 # reference folders
 /DecideAI_Web
+
+# CMS uploads
+/data/uploads/

@@ -23,6 +23,9 @@ export const translations = {
       greeting: 'Hello 👋',
       content: "I'm a Computer Science student with a strong passion for Data Analysis, Data Science, and Python Development. I enjoy exploring data, extracting valuable insights, and building solutions that solve real-world problems.\n\nWith hands-on experience using tools like Google Colab, Python libraries, and basic web technologies like HTML, CSS, and JavaScript, I strive to combine data-driven thinking with practical application.\n\nMy learning journey has also led me to explore backend tools like MongoDB and PHP, enriching my understanding of fullstack development. I approach every project with curiosity, logical thinking, and a strong desire to keep improving. Outside of coding, I'm passionate about continuous learning and sharing knowledge with others."
     },
+    experience: {
+      title: 'Experience'
+    },
     education: {
       title: 'Education',
       degree: 'Computer Science Student',
@@ -60,6 +63,9 @@ export const translations = {
       title: 'Tentang Saya',
       greeting: 'Halo 👋',
       content: "Saya adalah mahasiswa Ilmu Komputer dengan minat besar dalam Data Analysis, Data Science, dan Pengembangan Python. Saya senang mengeksplorasi data, menemukan insight berharga, dan membangun solusi yang dapat diterapkan dalam kehidupan nyata.\n\nSaya memiliki pengalaman menggunakan alat seperti Google Colab, library Python, serta teknologi web dasar seperti HTML, CSS, dan JavaScript, yang saya gunakan untuk menggabungkan logika data dengan implementasi nyata.\n\nSaya juga telah belajar tentang backend seperti MongoDB dan PHP, yang memperluas pemahaman saya tentang pengembangan fullstack. Saya mendekati setiap proyek dengan rasa ingin tahu, pemikiran logis, dan semangat untuk terus berkembang. Di luar coding, saya sangat menyukai pembelajaran berkelanjutan dan berbagi ilmu dengan orang lain."
+    },
+    experience: {
+      title: 'Pengalaman'
     },
     education: {
       title: 'Pendidikan',

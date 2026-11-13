@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "profile": {
+    "name": "Fahmi Raditya",
+    "roles": [
+      "AI Engineer",
+      "Fullstack Developer",
+      "Machine Learning",
+      "Data Analyst"
+    ],
+    "photoUrl": "/images/foto%20diri%20gsa.jpeg",
+    "heroDescription": {
+      "en": "A passionate learner in Data Analysis, Data Science, and Python Programming. I'm driven by curiosity and enjoy exploring how data can be used to generate insights and solve real-world problems.",
+      "id": "Seorang antusias di bidang Data Analysis, Data Science, dan Python Programming. Saya memiliki semangat tinggi untuk belajar dan mengeksplorasi bagaimana data dapat digunakan untuk memberikan insight dan solusi dalam berbagai konteks."
+    },
+    "aboutGreeting": {
+      "en": "Hello 👋",
+      "id": "Halo 👋"
+    },
+    "aboutContent": {
+      "en": "I'm a Computer Science student with a strong passion for Data Analysis, Data Science, and Python Development. I enjoy exploring data, extracting valuable insights, and building solutions that solve real-world problems.\n\nWith hands-on experience using tools like Google Colab, Python libraries, and basic web technologies like HTML, CSS, and JavaScript, I strive to combine data-driven thinking with practical application.\n\nMy learning journey has also led me to explore backend tools like MongoDB and PHP, enriching my understanding of fullstack development. I approach every project with curiosity, logical thinking, and a strong desire to keep improving. Outside of coding, I'm passionate about continuous learning and sharing knowledge with others.",
+      "id": "Saya adalah mahasiswa Ilmu Komputer dengan minat besar dalam Data Analysis, Data Science, dan Pengembangan Python. Saya senang mengeksplorasi data, menemukan insight berharga, dan membangun solusi yang dapat diterapkan dalam kehidupan nyata.\n\nSaya memiliki pengalaman menggunakan alat seperti Google Colab, library Python, serta teknologi web dasar seperti HTML, CSS, dan JavaScript, yang saya gunakan untuk menggabungkan logika data dengan implementasi nyata.\n\nSaya juga telah belajar tentang backend seperti MongoDB dan PHP, yang memperluas pemahaman saya tentang pengembangan fullstack. Saya mendekati setiap proyek dengan rasa ingin tahu, pemikiran logis, dan semangat untuk terus berkembang. Di luar coding, saya sangat menyukai pembelajaran berkelanjutan dan berbagi ilmu dengan orang lain."
+    },
+    "socials": [
+      {
+        "id": "social-github",
+        "name": "GitHub",
+        "url": "https://github.com/fhmi-kzkf"
+      },
+      {
+        "id": "social-linkedin",
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fahmi-raditya-a590b62a6/"
+      },
+      {
+        "id": "social-instagram",
+        "name": "Instagram",
+        "url": "https://instagram.com/fhmi.py"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "experience-9df85f5e-3fa6-45b3-9113-1ce4746fb699",
+      "role": "AI Engineer",
+      "company": "PT Kreasi Putra Hotama",
+      "period": "Aug 2026 - Oct 2026",
+      "description": "",
+      "tags": [
+        "AI",
+        "Software Development",
+        "Mobile Applications",
+        "Web Development"
+      ],
+      "url": ""
+    },
+    {
+      "id": "experience-f0d95bca-91e8-4b0d-9a1a-445f69d3bcc2",
+      "role": "Google Arcade Fasilitator",
+      "company": "Google",
+      "period": "Jul 2026 - Oct 2026",
+      "description": "",
+      "tags": [
+        "Fasilitator",
+        "Google Cloud Platform",
+        "Community Management"
+      ],
+      "url": ""
+    },
+    {
+      "id": "experience-11c4a166-cb7e-4ed7-a821-e0bb8ca9fa9a",
+      "role": "Google Student Ambassador",
+      "company": "Google",
+      "period": "Sep 2025 - Feb 2026",
+      "description": "",
+      "tags": [
+        "Brainstorm Facilitation",
+        "Brand Ambassador",
+        "Prompt Engineering",
+        "Leadership"
+      ],
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-bsi",
+      "degree": "Computer Science Student",
+      "institution": "Bina Sarana Informatika",
+      "year": "2023",
+      "icon": "🎓",
+      "description": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-python",
+      "name": "Python",
+      "tag1": "LANGUAGE",
+      "tag2": "CORE",
+      "icon": "/skills/python.svg",
+      "description": "High-level programming language for AI, data analysis, and backend systems."
+    },
+    {
+      "id": "skill-google-colab",
+      "name": "Google Colab",
+      "tag1": "TOOLKIT",
+      "tag2": "CLOUD",
+      "icon": "/skills/googlecolab.svg",
+      "description": "Cloud-based Jupyter notebook environment tailored for machine learning workflows."
+    },
+    {
+      "id": "skill-html",
+      "name": "HTML",
+      "tag1": "FRONTEND",
+      "tag2": "WEB",
+      "icon": "/skills/html5.svg",
+      "description": "The standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "id": "skill-css",
+      "name": "CSS",
+      "tag1": "STYLING",
+      "tag2": "WEB",
+      "icon": "/skills/css.svg",
+      "description": "Style sheet language used for describing the presentation of a document written in HTML."
+    },
+    {
+      "id": "skill-javascript",
+      "name": "JavaScript",
+      "tag1": "LANGUAGE",
+      "tag2": "WEB",
+      "icon": "/skills/javascript.svg",
+      "description": "High-level, often just-in-time compiled language that conforms to the ECMAScript standard."
+    },
+    {
+      "id": "skill-mongodb",
+      "name": "MongoDB",
+      "tag1": "DATABASE",
+      "tag2": "NOSQL",
+      "icon": "/skills/mongodb.svg",
+      "description": "Source-available cross-platform document-oriented database program."
+    },
+    {
+      "id": "skill-php",
+      "name": "PHP",
+      "tag1": "BACKEND",
+      "tag2": "WEB",
+      "icon": "/skills/php.svg",
+      "description": "Popular general-purpose scripting language that is especially suited to web development."
+    },
+    {
+      "id": "skill-machine-learning",
+      "name": "Machine Learning",
+      "tag1": "TRAINING",
+      "tag2": "AI",
+      "icon": "/skills/machine-learning.svg",
+      "description": "Building and training statistical models to solve complex predictive tasks."
+    },
+    {
+      "id": "skill-data-analyst",
+      "name": "Data Analyst",
+      "tag1": "ANALYTICS",
+      "tag2": "DATA",
+      "icon": "/skills/data-analyst.svg",
+      "description": "Extracting actionable insights and creating visualizations from complex datasets."
+    },
+    {
+      "id": "skill-data-science",
+      "name": "Data Science",
+      "tag1": "RESEARCH",
+      "tag2": "DATA",
+      "icon": "/skills/data-science.svg",
+      "description": "Extracting knowledge from noisy, structured and unstructured data."
+    },
+    {
+      "id": "skill-data-engineering",
+      "name": "Data Engineering",
+      "tag1": "INFRA",
+      "tag2": "DATA",
+      "icon": "/skills/data-engineering.svg",
+      "description": "Designing and building scalable pipelines for robust data processing."
+    },
+    {
+      "id": "skill-ai",
+      "name": "AI",
+      "tag1": "COGNITIVE",
+      "tag2": "CORE",
+      "icon": "/skills/ai.svg",
+      "description": "Developing intelligent systems capable of performing tasks that typically require human intelligence."
+    },
+    {
+      "id": "skill-go",
+      "name": "Go",
+      "tag1": "LANGUAGE",
+      "tag2": "BACKEND",
+      "icon": "/skills/go.svg",
+      "description": "Compiled, statically typed language designed for fast and concurrent backend services."
+    },
+    {
+      "id": "skill-docker",
+      "name": "Docker",
+      "tag1": "DEVOPS",
+      "tag2": "CONTAINERS",
+      "icon": "/skills/docker.svg",
+      "description": "Container platform for packaging applications and their dependencies into portable images."
+    },
+    {
+      "id": "skill-flutter",
+      "name": "Flutter",
+      "tag1": "MOBILE",
+      "tag2": "CROSS-PLATFORM",
+      "icon": "/skills/flutter.svg",
+      "description": "Cross-platform UI toolkit for shipping native mobile, web, and desktop apps from one codebase."
+    },
+    {
+      "id": "skill-github-actions",
+      "name": "GitHub CI/CD",
+      "tag1": "DEVOPS",
+      "tag2": "CI/CD",
+      "icon": "/skills/githubactions.svg",
+      "description": "Automated build, test, and deployment pipelines powered by GitHub Actions."
+    },
+    {
+      "id": "skill-product-builder",
+      "name": "Product Builder",
+      "tag1": "PRODUCT",
+      "tag2": "STRATEGY",
+      "icon": "/skills/product-builder.svg",
+      "description": "Turning user needs into scoped, launch-ready products, from requirements and flows to working prototypes."
+    },
+    {
+      "id": "skill-cloud-computing",
+      "name": "Cloud Computing",
+      "tag1": "INFRA",
+      "tag2": "CLOUD",
+      "icon": "/skills/cloud-computing.svg",
+      "description": "Deploying and operating scalable applications on cloud infrastructure, from compute and storage to networking."
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-music-genre",
+      "title": "DataLoka – Client-First BI & Analytics Platform",
+      "description": "DataLoka is a client-first business intelligence platform for dissecting transaction data, omnichannel sales reports, and SME bookkeeping. ",
+      "tags": [
+        "Business Intelligence",
+        "Next.js",
+        "Privacy-First AI"
+      ],
+      "image": "/projects/dataloka.png",
+      "githubUrl": "",
+      "demoUrl": "https://data-loka.vercel.app/"
+    },
+    {
+      "id": "project-intellilearn",
+      "title": "Klozer.id – AI Conversational Commerce & Multi-Tenant CRM",
+      "description": "Klozer.id is a multi-tenant conversational commerce and CRM platform that automates WhatsApp sales for retail, F&B, fashion, services, and NGOs. ",
+      "tags": [
+        "WhatsApp Automation",
+        "CSAI",
+        "Multi-Tenant CRM"
+      ],
+      "image": "/projects/klozer.png",
+      "githubUrl": "",
+      "demoUrl": "https://klozer.my.id/"
+    },
+    {
+      "id": "project-chainsense",
+      "title": "Retalio – Smart Business System for SMBs",
+      "description": "Retalio is an all-in-one business operating system for small and medium businesses, combining POS, inventory, finance, and an AI assistant in a single offline-first progressive web app.",
+      "tags": [
+        "ERP System",
+        "PWA",
+        "Offline-First"
+      ],
+      "image": "/projects/retalio.png",
+      "githubUrl": "",
+      "demoUrl": "https://ritelio.up.railway.app/"
+    },
+    {
+      "id": "project-flowforge",
+      "title": "Skripsa – Multi-Agent Thesis Drafting PWA",
+      "description": "SkripsiAI is a multi-agent thesis drafting PWA that guides students from a single intake form to a campus-formatted DOCX draft.",
+      "tags": [
+        "Academic Writing",
+        "Multi-Agent AI",
+        "PWA"
+      ],
+      "image": "/projects/skripsa.png",
+      "githubUrl": "",
+      "demoUrl": "https://skripsa.up.railway.app/"
+    },
+    {
+      "id": "project-datamind",
+      "title": "Ethermind Builder – Chat-to-Launch AI App Builder",
+      "description": "Ethermind Builder is an AI app builder that turns a plain-language request into a running, quality-gated web app.",
+      "tags": [
+        "AI App Builder",
+        "Quality Gates",
+        "Multi-Agent"
+      ],
+      "image": "/projects/ethermind-builder.png",
+      "githubUrl": "https://github.com/fhmi-kzkf/Ethermind-Builder",
+      "demoUrl": ""
+    },
+    {
+      "id": "project-marketmind",
+      "title": "SyncFlow ✦ AI – Agentic Spec Orchestration Platform",
+      "description": "SyncFlow AI is an agentic orchestration platform that turns a product brief into a connected suite of PRD, TRD, database schema, and app-flow documents.",
+      "tags": [
+        "Agentic AI",
+        "Multi-LLM",
+        "PRD Automation"
+      ],
+      "image": "/projects/syncflow.png",
+      "githubUrl": "https://github.com/fhmi-kzkf/SyncFlow-AI",
+      "demoUrl": "https://sync-flow-ai.vercel.app/"
+    },
+    {
+      "id": "project-pactwarden",
+      "title": "PactWarden",
+      "description": "PactWarden is an AI-powered legal technology platform designed to automate the mitigation of legal, financial, and operational risks in vendor contracts.",
+      "tags": [
+        "RAG",
+        "LLM",
+        "Contract Analysis"
+      ],
+      "image": "/projects/pactwarden.png",
+      "githubUrl": "https://github.com/fhmi-kzkf/PactWarden",
+      "demoUrl": "https://pact-warden.vercel.app/"
+    },
+    {
+      "id": "project-tariffguard",
+      "title": "TariffGuard-AI",
+      "description": "TariffGuard AI is an intelligent system that automates tariff classification, regulatory compliance checking, and customs audit processes using AI-powered agents.",
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Regulatory Compliance"
+      ],
+      "image": "/projects/tariffguard.png",
+      "githubUrl": "https://github.com/fhmi-kzkf/TariffGuard-Ai",
+      "demoUrl": "https://tariff-guard-ai.vercel.app/"
+    },
+    {
+      "id": "project-orgtwin",
+      "title": "OrgTwin",
+      "description": "OrgTwin Engine is an intelligent, agent-driven platform designed for C-Suite strategic stress-testing and resource negotiation.",
+      "tags": [
+        "Multi Agent",
+        "Typescript",
+        "Simulation"
+      ],
+      "image": "/projects/orgtwin.png",
+      "githubUrl": "https://github.com/fhmi-kzkf/OrgTwin",
+      "demoUrl": "https://org-twin.vercel.app/"
+    }
+  ]
+}
